@@ -110,3 +110,72 @@ nav{
     text-align: center;
     align-items: center;
 }
+
+/*media queries and break point   800px and 500px*/
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color:yellow;
+    }
+    header.headers{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+       align-items: center;
+       }
+    header nav {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+    header.headers{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+       align-items: center;
+       }
+    header nav {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.part1 img{
+        
+        height:25vh;
+    
+  }
+  
+section.part2 {
+   display:flex;
+   flex-direction: column;
+    
+   
+    
+}
+section.part2 img{
+   padding: 5%;
+    width:40%;
+    display: flex;
+     flex-wrap: wrap;
+    
+}
+section.part2 p{
+    width:20%;
+}
+  }
